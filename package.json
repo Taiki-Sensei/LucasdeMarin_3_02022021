@@ -1,0 +1,20 @@
+{
+  "name": "lucasdemarin_3_02022021",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass sass/main.scss style.css", 
+    "watch": "sass sass/main.scss style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Taiki-Sensei/LucasdeMarin_3_02022021.git"
+  },
+  "author": "lucas de marin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Taiki-Sensei/LucasdeMarin_3_02022021/issues"
+  },
+  "homepage": "https://github.com/Taiki-Sensei/LucasdeMarin_3_02022021#readme"
+}

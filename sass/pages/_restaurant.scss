@@ -1,17 +1,34 @@
 .restaurant {
+    width: auto;
+    height: 250px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    overflow: hidden;
+    padding: 10px;
     .restaurant__img {
-
+        object-fit: cover;
+        object-position: center;
+        height: 0;
+        flex: 1 1 0;
     }
     .restaurant__heading {
-        .restaurant__heading__like [
+        background: #fff;
+        padding: 10px 3px;
+        flex: 0 0 auto;
+        .restaurant__heading__like {
 
-        ]
+        }
         .restaurant__heading__infos {
             .restaurant__heading__infos__name {
-
+                padding: 0;
+                margin: 0;
             }
             .restaurant__heading__infos__location {
-
+                padding: 0;
+                margin: 0;
             }
         }
     }

@@ -1,8 +1,15 @@
 .header {
+    text-align: center;
     .header__title {
-
+        font-family: 'Shrikhand';
+        font-size: 30px;
+    }
+    .header__location {
+        background-color: darkgrey;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
     .header__image {
-
+        weight: auto;
     }
 }

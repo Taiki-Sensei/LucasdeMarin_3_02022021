@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("./Polices/roboto/Roboto-Regular.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Shrikhand";
+  src: url("./Polices/shrikhand/Shrikhand-Regular.ttf") format("ttf");
+}
+.button {
+  padding: 10px;
+  background: linear-gradient(#FF70DA, #9356DC);
+  border-radius: 20px;
+  align-items: center;
+  weight: 50px;
+  margin: 20px;
+  color: #fff;
+}
+.footer {
+  color: white;
+  background-color: grey;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+.footer .footer__title {
+  font-family: "Shrikhand";
+  font-size: 20px;
+  margin-left: 10px;
+}
+.footer .footer__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.footer .footer__list .footer__list__item {
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.header {
+  text-align: center;
+}
+.header .header__title {
+  font-family: "Shrikhand";
+  font-size: 30px;
+}
+.header .header__location {
+  background-color: darkgrey;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.header .header__image {
+  weight: auto;
+}
+
+.restaurant {
+  width: auto;
+  height: 250px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  overflow: hidden;
+  padding: 10px;
+}
+.restaurant .restaurant__img {
+  object-fit: cover;
+  object-position: center;
+  height: 0;
+  flex: 1 1 0;
+}
+.restaurant .restaurant__heading {
+  background: #fff;
+  padding: 10px 3px;
+  flex: 0 0 auto;
+}
+.restaurant .restaurant__heading .restaurant__heading__infos .restaurant__heading__infos__name {
+  padding: 0;
+  margin: 0;
+}
+.restaurant .restaurant__heading .restaurant__heading__infos .restaurant__heading__infos__location {
+  padding: 0;
+  margin: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
