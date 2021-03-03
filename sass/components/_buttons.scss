@@ -1,12 +1,11 @@
 .button {
     padding: 10px;
-    background: linear-gradient(#FF70DA,#9356DC);
+    background: linear-gradient($secondary-color, $primary-color);
     border-radius: 20px;
-    align-items: center;
     weight: 50px;
     margin: 20px;
     color: #fff;
     .button__explorer {
-    
+        font: 'Shr'
     }
 }

@@ -1,6 +1,8 @@
 .working {
+    
     .working__title {
-
+        font-weight: bold;
+        font-size: 20px;
     }
     .working__step1 {
         
@@ -10,5 +12,12 @@
     }
     .working__step3 {
         
+    }
+    .working__step1, .working__step2, .working__step3 {
+        padding: 20px;
+        border-radius: 20px;
+        border: 2px solid rgb(212, 207, 207);
+        background-color: rgb(212, 207, 207);
+        margin: 20px;
     }
 }

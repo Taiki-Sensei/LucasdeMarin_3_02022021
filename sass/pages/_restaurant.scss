@@ -1,10 +1,14 @@
+.restaurant-title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
 .restaurant {
     width: auto;
     height: 250px;
-    border-radius: 15px;
+    border-radius: 45px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: stretch;
     overflow: hidden;
     padding: 10px;
@@ -19,7 +23,7 @@
         padding: 10px 3px;
         flex: 0 0 auto;
         .restaurant__heading__like {
-
+            
         }
         .restaurant__heading__infos {
             .restaurant__heading__infos__name {
