@@ -1,5 +1,6 @@
 .header {
     text-align: center;
+    background-color: white;
     .header__title {
         font-family: 'Shrikhand';
         font-size: 30px;
@@ -8,8 +9,16 @@
         background-color: darkgrey;
         padding-top: 10px;
         padding-bottom: 10px;
+        font-family: 'Roboto';
     }
-    .header__image {
+    .header__bottom {
         width: auto;
+        height: 250px;
+        .header__bottom__image {
+            object-fit: cover;
+            object-position: center;
+            height: 0;
+            flex: 1 1 0;
+        }
     }
 }

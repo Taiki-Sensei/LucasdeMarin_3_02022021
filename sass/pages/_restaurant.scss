@@ -1,6 +1,7 @@
 .restaurant-title {
     font-size: 25px;
     font-weight: bold;
+    font-family: 'Roboto';
 }
 
 .restaurant {
@@ -12,6 +13,9 @@
     align-items: stretch;
     overflow: hidden;
     padding: 10px;
+    font-family: 'Roboto';
+    background-color: rgb(212, 207, 207);
+    margin: 30px 20px;
     .restaurant__img {
         object-fit: cover;
         object-position: center;
@@ -21,7 +25,10 @@
     .restaurant__heading {
         background: #fff;
         padding: 10px 3px;
-        flex: 0 0 auto;
+        flex: 0 0 auto;  
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;      
         .restaurant__heading__like {
             
         }
@@ -29,6 +36,7 @@
             .restaurant__heading__infos__name {
                 padding: 0;
                 margin: 0;
+                font-weight: bold;
             }
             .restaurant__heading__infos__location {
                 padding: 0;

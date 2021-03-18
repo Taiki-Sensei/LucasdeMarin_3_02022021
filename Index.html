@@ -10,23 +10,21 @@
 <body>
     <header class="header">
         <div class="header__title">ohmyfood</div>
-        <div class="header__location">Paris, Belleville</div>
+        <div class="header__location"><i class="fas fa-map-marker-alt"></i>Paris, Belleville</div>
     </header>
     <div class="description">
-        <p class="description_phrase1">Réservez le menu qui vous convient</p>
-        <p class="description_phrase2">Découvrez des restaurants d'exception, sélectionnés par nos soins.</p>
+        <p class="description__phrase1">Réservez le menu qui vous convient</p>
+        <p class="description__phrase2">Découvrez des restaurants d'exception, sélectionnés par nos soins.</p>
     </div>    
-    <button class="button">
-        <span class="button_explorer">Explorer nos restaurants</span>
-    </button>   
+    <a class="button">Explorer nos restaurants</a>   
     <div class="working">
         <span class="working__title">Fonctionnement</span>
-        <div class="working__step1">1 Choissisez un restaurant</div>
-        <div class="working__step2">2 Composez votre menu</div>
-        <div class="working__step3">3 Dégustez au restaurant</div>
+        <div class="working__step"><div class="working__step__number">1</div><i class="fas fa-mobile-alt"></i><div class="working__step__text">Choissisez un restaurant</div></div>
+        <div class="working__step"><div class="working__step__number">2</div><i class="fas fa-list-ul"></i><div class="working__step__text">Composez votre menu</div></div>
+        <div class="working__step"><div class="working__step__number">3</div><i class="fas fa-store"></i><div class="working__step__text">Dégustez au restaurant</div></div>
     </div>
     <span class="restaurant-title">Restaurants</span>
-    <a class="restaurant">
+    <a class="restaurant" src="Menu - La palette du goût.html">
         <img src="Images/lapalettedugout.jpg" class="restaurant__img" alt="La palette du goût" />
         <div class="restaurant__heading">
             <div class="restaurant__heading__infos">
@@ -34,11 +32,11 @@
                 <p class="restaurant__heading__infos__location">Ménilmontant</p>
             </div>
             <div class="restaurant__heading__like">
-            
+                <i class="far fa-heart"></i>
             </div>
         </div>
     </a>
-    <a class="restaurant">
+    <a class="restaurant" src="Menu - La note enchantée.html">
         <img src="Images/lanoteenchantee.jpg" class="restaurant__img" alt="La note enchantée" />
         <div class="restaurant__heading">
             <div class="restaurant__heading__infos">
@@ -46,11 +44,11 @@
                 <p class="restaurant__heading__infos__location">Charonne</p>
             </div>
             <div class="restaurant__heading__like">
-            
+                <i class="far fa-heart"></i>
             </div>
         </div>
     </a>
-    <a class="restaurant">
+    <a class="restaurant" src="Menu - À la française.html">
         <img src="Images/alafrancaise.jpg" class="restaurant__img" alt="À la française" />
         <div class="restaurant__heading">
             <div class="restaurant__heading__infos">
@@ -58,27 +56,27 @@
                 <p class="restaurant__heading__infos__location">Cité Rouge</p>
             </div>
             <div class="restaurant__heading__like">
-            
+                <i class="far fa-heart"></i>
             </div>
         </div>
     </a>
-    <a class="restaurant">
-        <img src="Images/ledelicedessens.jpg" class="restaurant-img" alt="Le délice des sens" />
+    <a class="restaurant" src="Menu - Le délice des sens.html">
+        <img src="Images/ledelicedessens.jpg" class="restaurant__img" alt="Le délice des sens" />
         <div class="restaurant__heading">
             <div class="restaurant__heading__infos">
                 <p class="restaurant__heading__infos__name">Le délice des sens</p>
                 <p class="restaurant__heading__infos__location">Folie-Méricourt</p>
             </div>
             <div class="restaurant__heading__like">
-            
+                <i class="far fa-heart"></i>
             </div>
         </div>
     </a>
     <footer class="footer">
         <span class="footer__title">ohmyfood</span>
         <ul class="footer__list">
-            <li class="footer__list__item">Proposer un restaurant</li>
-            <li class="footer__list__item">Devenir partenaire</li>
+            <li class="footer__list__item"><i class="fas fa-utensils"></i>Proposer un restaurant</li>
+            <li class="footer__list__item"><i class="fas fa-hands-helping"></i>Devenir partenaire</li>
             <li class="footer__list__item">Mentions légales</li>
             <li class="footer__list__item">Contact</li>
         </ul>

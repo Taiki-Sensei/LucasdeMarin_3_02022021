@@ -1,23 +1,31 @@
 .working {
-    
+    font-family: 'Roboto';
+    margin-top: 30px;
+    padding: 20px;
+    background-color: white;
     .working__title {
         font-weight: bold;
         font-size: 20px;
     }
-    .working__step1 {
-        
-    }
-    .working__step2 {
-        
-    }
-    .working__step3 {
-        
-    }
-    .working__step1, .working__step2, .working__step3 {
+    
+    .working__step {
         padding: 20px;
         border-radius: 20px;
         border: 2px solid rgb(212, 207, 207);
         background-color: rgb(212, 207, 207);
         margin: 20px;
+        display: flex;
+        flex-direction: row;
+        vertical-align: middle;
+        .working__step__number {
+            padding: 5px 8px;
+            border-radius: 30px;
+            background-color: $primary-color;
+            color: white;
+        }
+        .working__step__text {
+            
+        }
+    
     }
 }

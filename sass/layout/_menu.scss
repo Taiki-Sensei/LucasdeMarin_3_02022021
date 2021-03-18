@@ -1,23 +1,33 @@
 .menu {
+    background-color: rgb(212, 207, 207);
+    font-family: 'Roboto';
     .menu__title {
-
+        border-bottom: 2px solid $tertiary-color;
+        padding-bottom: 3px;
     }
     .menu__header {
+        padding-bottom: 30px;
+        padding-top: 30px;
         .menu__header__title {
-
+            font-family: 'Shrikhand';
+            font-size: 25px;
         }
     }
     .menu__item {
         padding: 5px;
-        border-radius: 20px;
-        border: 2px solid rgb(212, 207, 207);
-        background-color: rgb(212, 207, 207);
+        border-radius: 10px;
+        border: 2px solid white;
+        background-color: white;
         margin: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
         .menu__item__infos {
             .menu__item__infos__name {
                 padding: 0;
                 margin: 0;
                 font-weight: bold;
+                font-size: 18px;
             }
             .menu__item__infos__plus {
                 padding: 0;
@@ -25,7 +35,8 @@
             }
         }
         .menu__item_price {
-
+            display: block;
+            vertical-align: middle;
         }
     }
 }

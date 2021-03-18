@@ -2,10 +2,11 @@
     padding: 10px;
     background: linear-gradient($secondary-color, $primary-color);
     border-radius: 20px;
-    weight: 50px;
-    margin: 20px;
+    width: 50px;
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
     color: #fff;
-    .button__explorer {
-        font: 'Shr'
-    }
+    font-family: 'Roboto';
 }
