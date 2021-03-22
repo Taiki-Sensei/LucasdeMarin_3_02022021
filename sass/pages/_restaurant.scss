@@ -2,6 +2,7 @@
     font-size: 25px;
     font-weight: bold;
     font-family: 'Roboto';
+    padding-left: 20px;
 }
 
 .restaurant {
@@ -14,8 +15,10 @@
     overflow: hidden;
     padding: 10px;
     font-family: 'Roboto';
-    background-color: rgb(212, 207, 207);
+    background-color: rgb(247, 238, 238);
     margin: 30px 20px;
+    color: black;
+    text-decoration: none;
     .restaurant__img {
         object-fit: cover;
         object-position: center;

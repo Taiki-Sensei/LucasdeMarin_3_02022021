@@ -13,7 +13,7 @@
   width: 50px;
   display: block;
   width: 200px;
-  margin: 0 auto;
+  margin: 0px auto;
   text-align: center;
   color: #fff;
   font-family: "Roboto";
@@ -23,17 +23,48 @@ i.fas.fa-map-marker-alt, i.far.fa-heart, i.fas.fa-utensils, i.fas.fa-hands-helpi
   margin-right: 10px;
 }
 
-i.far.fa-heart {
-  margin-top: 5px;
+i.far.fa-heart, i.fas.fa-mobile-alt, i.fas.fa-list-ul, i.fas.fa-store {
+  position: relative;
+  top: 7px;
+}
+
+i.fas.fa-mobile-alt, i.fas.fa-list-ul, i.fas.fa-store {
+  right: 10px;
+}
+
+i.fas.fa-mobile-alt:hover, i.fas.fa-list-ul:hover, i.fas.fa-store:hover {
+  color: #9356DC;
+}
+
+i.fas.fa-mobile-alt, i.fas.fa-list-ul, i.fas.fa-store {
+  color: grey;
+}
+
+.body-index {
+  background-color: #f7eeee;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  background-color: #d4cfcf;
+  margin: 0;
+  padding: 0;
+}
+body img.hero {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  object-position: top center;
+  z-index: -1;
 }
 
 .footer {
   color: white;
-  background-color: grey;
+  background-color: #666464;
   padding: 10px;
   padding-bottom: 20px;
 }
@@ -62,25 +93,27 @@ body {
   font-size: 30px;
 }
 .header .header__location {
-  background-color: darkgrey;
+  background-color: #d1cbcb;
   padding-top: 10px;
   padding-bottom: 10px;
   font-family: "Roboto";
 }
 .header .header__bottom {
   width: auto;
-  height: 250px;
+  height: 300px;
 }
 .header .header__bottom .header__bottom__image {
   object-fit: cover;
   object-position: center;
-  height: 0;
   flex: 1 1 0;
 }
 
 .menu {
-  background-color: #d4cfcf;
+  margin-top: 300px;
+  background-color: #f7eeee;
   font-family: "Roboto";
+  border-radius: 45px 45px 0px 0px;
+  padding: 20px;
 }
 .menu .menu__title {
   border-bottom: 2px solid #99E2D0;
@@ -99,7 +132,7 @@ body {
   border-radius: 10px;
   border: 2px solid white;
   background-color: white;
-  margin: 20px;
+  margin: 20px 0px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -115,8 +148,8 @@ body {
   margin: 0;
 }
 .menu .menu__item .menu__item_price {
-  display: block;
-  vertical-align: middle;
+  position: relative;
+  top: 40px;
 }
 
 .description {
@@ -136,6 +169,7 @@ body {
   font-size: 25px;
   font-weight: bold;
   font-family: "Roboto";
+  padding-left: 20px;
 }
 
 .restaurant {
@@ -148,8 +182,10 @@ body {
   overflow: hidden;
   padding: 10px;
   font-family: "Roboto";
-  background-color: #d4cfcf;
+  background-color: #f7eeee;
   margin: 30px 20px;
+  color: black;
+  text-decoration: none;
 }
 .restaurant .restaurant__img {
   object-fit: cover;
@@ -178,6 +214,7 @@ body {
 .working {
   font-family: "Roboto";
   margin-top: 30px;
+  margin-bottom: 50px;
   padding: 20px;
   background-color: white;
 }
@@ -186,10 +223,11 @@ body {
   font-size: 20px;
 }
 .working .working__step {
-  padding: 20px;
+  padding: 15px;
   border-radius: 20px;
-  border: 2px solid #d4cfcf;
-  background-color: #d4cfcf;
+  border: 2px solid #f7eeee;
+  background-color: #f7eeee;
+  box-shadow: 5px 5px 15px grey;
   margin: 20px;
   display: flex;
   flex-direction: row;
@@ -200,6 +238,13 @@ body {
   border-radius: 30px;
   background-color: #9356DC;
   color: white;
+  position: relative;
+  right: 30px;
+}
+.working .working__step .working__step__text {
+  padding-left: 10px;
+  position: relative;
+  top: 7px;
 }
 
 /*# sourceMappingURL=style.css.map */

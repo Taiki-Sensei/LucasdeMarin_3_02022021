@@ -2,6 +2,19 @@ i.fas.fa-map-marker-alt, i.far.fa-heart, i.fas.fa-utensils, i.fas.fa-hands-helpi
     margin-right: 10px;
 }
 
-i.far.fa-heart {
-    margin-top: 5px;
+i.far.fa-heart, i.fas.fa-mobile-alt, i.fas.fa-list-ul, i.fas.fa-store {
+    position: relative;
+    top: 7px;
+}
+
+i.fas.fa-mobile-alt, i.fas.fa-list-ul, i.fas.fa-store {
+    right: 10px;
+}
+
+i.fas.fa-mobile-alt:hover, i.fas.fa-list-ul:hover, i.fas.fa-store:hover {
+    color: $primary-color;
+}
+
+i.fas.fa-mobile-alt, i.fas.fa-list-ul, i.fas.fa-store {
+    color: grey;
 }

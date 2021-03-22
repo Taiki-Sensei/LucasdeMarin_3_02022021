@@ -1,6 +1,7 @@
 .working {
     font-family: 'Roboto';
     margin-top: 30px;
+    margin-bottom: 50px;
     padding: 20px;
     background-color: white;
     .working__title {
@@ -9,10 +10,11 @@
     }
     
     .working__step {
-        padding: 20px;
+        padding: 15px;
         border-radius: 20px;
-        border: 2px solid rgb(212, 207, 207);
-        background-color: rgb(212, 207, 207);
+        border: 2px solid rgb(247, 238, 238);
+        background-color: rgb(247, 238, 238);
+        box-shadow: 5px 5px 15px grey;
         margin: 20px;
         display: flex;
         flex-direction: row;
@@ -22,9 +24,13 @@
             border-radius: 30px;
             background-color: $primary-color;
             color: white;
+            position: relative;
+            right: 30px;
         }
         .working__step__text {
-            
+            padding-left: 10px;
+            position: relative;
+            top: 7px;
         }
     
     }

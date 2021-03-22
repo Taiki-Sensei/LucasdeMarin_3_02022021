@@ -1,6 +1,9 @@
 .menu {
-    background-color: rgb(212, 207, 207);
+    margin-top: 300px;
+    background-color: rgb(247, 238, 238);
     font-family: 'Roboto';
+    border-radius: 45px 45px 0px 0px;
+    padding: 20px;
     .menu__title {
         border-bottom: 2px solid $tertiary-color;
         padding-bottom: 3px;
@@ -18,7 +21,7 @@
         border-radius: 10px;
         border: 2px solid white;
         background-color: white;
-        margin: 20px;
+        margin: 20px 0px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -35,8 +38,8 @@
             }
         }
         .menu__item_price {
-            display: block;
-            vertical-align: middle;
+            position: relative;
+            top: 40px;
         }
     }
 }
