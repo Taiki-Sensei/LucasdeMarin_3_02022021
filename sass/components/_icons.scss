@@ -9,12 +9,8 @@ i.far.fa-heart, i.fas.fa-mobile-alt, i.fas.fa-list-ul, i.fas.fa-store {
 
 i.fas.fa-mobile-alt, i.fas.fa-list-ul, i.fas.fa-store {
     right: 10px;
-}
-
-i.fas.fa-mobile-alt:hover, i.fas.fa-list-ul:hover, i.fas.fa-store:hover {
-    color: $primary-color;
-}
-
-i.fas.fa-mobile-alt, i.fas.fa-list-ul, i.fas.fa-store {
     color: grey;
+    &:hover {
+        color: $primary-color;
+    }
 }

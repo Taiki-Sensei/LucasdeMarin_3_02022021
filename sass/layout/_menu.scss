@@ -25,6 +25,26 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        animation-name: opacity;
+        animation-timing-function: ease-in;
+        animation-duration: 1s;
+        @keyframes opacity {
+            from {
+                opacity: 0;
+                position: relative;
+                top: 20px;
+            }
+            50% {
+                opacity: 50;
+                position: relative;
+                top: 10px;
+            }
+            to {
+                opacity: 100;
+                position: relative;
+                top: 0px;
+            }
+        }
         .menu__item__infos {
             .menu__item__infos__name {
                 padding: 0;
@@ -35,11 +55,36 @@
             .menu__item__infos__plus {
                 padding: 0;
                 margin: 0;
+                overflow: hidden;
             }
         }
-        .menu__item_price {
+        .menu__item__price {
             position: relative;
-            top: 40px;
+            top: 20px;
+        }
+        .menu__item__select {
+            overflow: hidden;
+        }
+        &:hover {
+            .menu__item__select {              
+                overflow: hidden;
+                animation-name: slide;
+                animation-timing-function: ease-in-out;
+                animation-duration: 400ms;
+                @keyframes slide {
+                    from {
+                        width: 0px;
+                    }
+                    50% {
+                        width: 20px;
+                        background-color: green;
+                    }
+                    to {
+                        width: 40px;
+                        background-color: green;
+                    }
+                }
+            }
         }
     }
 }
