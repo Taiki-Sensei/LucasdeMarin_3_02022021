@@ -1,15 +1,17 @@
-.header {
-    
+.header { 
+    position: relative;
     .header__title {
         font-family: 'Shrikhand';
         font-size: 30px;
         text-align: center;
+        background-color: rgb(247, 238, 238);
     }
     .header__location {
         background-color: rgb(209, 203, 203);
         padding-top: 10px;
         padding-bottom: 10px;
         font-family: 'Roboto';
+        text-align: center;
     }
     .header__bottom {
         width: auto;

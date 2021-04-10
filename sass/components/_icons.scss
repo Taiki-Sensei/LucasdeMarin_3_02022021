@@ -14,3 +14,16 @@ i.fas.fa-mobile-alt, i.fas.fa-list-ul, i.fas.fa-store {
         color: $primary-color;
     }
 }
+
+i.fas.fa-arrow-left {
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    font-size: 30px;
+}
+
+i.fas.fa-check-circle {
+    color: white;
+}
