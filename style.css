@@ -17,6 +17,7 @@
   text-align: center;
   color: #fff;
   font-family: "Roboto";
+  text-decoration: none;
 }
 
 i.fas.fa-map-marker-alt, i.far.fa-heart, i.fas.fa-utensils, i.fas.fa-hands-helping {
